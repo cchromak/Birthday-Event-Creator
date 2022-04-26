@@ -19,3 +19,7 @@ Create a google sheet and share it with everyone whose birthday you wish to crea
 
 The sheets formatting is as following: 
 <img src="https://github.com/cchromak/Birthday-Event-Creator/tree/main/images/addSheet.png" width=600>
+
+
+
+![Google sheet](https://github.com/cchromak/Birthday-Event-Creator/tree/main/images/addSheet.png)
