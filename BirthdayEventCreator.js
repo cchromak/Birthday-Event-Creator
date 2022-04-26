@@ -7,7 +7,7 @@ function eventCreator() {
     var eventCal = CalendarApp.getCalendarById(calendarId);
   
     // Gather data from spreadsheet.
-    var data = spreadsheet.getRange("A2:F47").getValues();
+    var data = spreadsheet.getRange("A2:F4").getValues();
   
     // Loop through list of lists creating eaach event.
     for (i = 0; i < data.length; i++) {
