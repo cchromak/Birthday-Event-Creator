@@ -13,6 +13,7 @@ Create a google sheet and share it with everyone whose birthday you wish to crea
 
 The sheets formatting is as following: 
 <p><img src="https://github.com/cchromak/Birthday-Event-Creator/blob/main/images/addSheet.png" width=900></p>
+
 **Note the formatting of the date yyyy-mm-dd**
 
 ### Setting up a Google calendar
