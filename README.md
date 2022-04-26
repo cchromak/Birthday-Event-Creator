@@ -1,7 +1,7 @@
 # Birthday-Event-Creator
 
 ## Description
-Simple script made for my family to create Goolge calendar events via Google Sheets and Apps script.
+Simple script made for my family to create Google calendar events via Google Sheets and Apps script.
 
 All you need is a Google account and 10 minutes.
 
