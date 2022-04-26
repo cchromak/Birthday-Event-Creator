@@ -1,5 +1,4 @@
 # Birthday-Event-Creator
-Simple script made for my family to create Goolge calendar events via Google Sheets and Apps script
 
 ## Description
 Simple script made for my family to create Goolge calendar events via Google Sheets and Apps script.
@@ -18,6 +17,8 @@ The sheets formatting is as following:
 
 ### Setting up a Google calendar
 
+Go to Google Calendar
+
 Create a Calendar
 <p><img src="https://github.com/cchromak/Birthday-Event-Creator/blob/main/images/createCalendar.png" width=400></p>
 
@@ -27,8 +28,19 @@ Select Calendar Options
 Scroll down until you find calendar Id. Copy and paste it for temporary holding.
 <p><img src="https://github.com/cchromak/Birthday-Event-Creator/blob/main/images/grabId.png" width=400></p>
 
-### Apps script
+### Setting up Apps script
 
-Go back to the already open Google sheet.
+Go back to the already open Google sheet. 
 
+Open up Apps scripts
+<p><img src="https://github.com/cchromak/Birthday-Event-Creator/blob/main/images/appsScript.png" width=700></p>
 
+This is what you will see:
+<p><img src="https://github.com/cchromak/Birthday-Event-Creator/blob/main/images/appSheet.png" width=700></p>
+
+Copy and paste the code from [BirthdayEventCreator.js](https://github.com/cchromak/Birthday-Event-Creator/blob/main/BirthdayEventCreator.js)
+
+There are two important must do's at this point.
+Copy and paste your previously saved calender Id into two places in the code. They are on line 6 and 62. This id will take the place of the holder **YOUR_CALENDAR_ID_GOES_HERE_LEAVE_QUOTES**. As it says, leave the quotes.
+
+Next, you must ensure on line 10 that your inputted range of the google sheet is correct. For instance, the range in this code is from A2 to F4. Refer to [brirthdaySheetTemplate](https://github.com/cchromak/Birthday-Event-Creator/blob/main/images/addSheet.png). Your range must match the data in your google sheet.
