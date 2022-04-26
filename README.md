@@ -70,27 +70,22 @@ Add both the Google Sheets Api and Google Calendar Api
 <p><img src="https://github.com/cchromak/Birthday-Event-Creator/blob/main/images/addCalendar.png" width=400></p>
 
 Save the project
-<p><img src="https://github.com/cchromak/Birthday-Event-Creator/blob/main/images/saveProjecxt
-.png" width=400></p>
+<p><img src="https://github.com/cchromak/Birthday-Event-Creator/blob/main/images/saveProjecxt.png" width=400></p>
 
 You will by default have **eventCreator** selected as the function you wish to run, but just in case ensure it is selected.
-<p><img src="https://github.com/cchromak/Birthday-Event-Creator/blob/main/images/selectEventCreator
-.png" width=400></p>
+<p><img src="https://github.com/cchromak/Birthday-Event-Creator/blob/main/images/selectEventCreator.png" width=400></p>
 
 Run it
-<p><img src="https://github.com/cchromak/Birthday-Event-Creator/blob/main/images/selectRun
-.png" width=400></p>
+<p><img src="https://github.com/cchromak/Birthday-Event-Creator/blob/main/images/selectRun.png" width=400></p>
 
 You will be asked to give the project permission to use your data.
-<p><img src="https://github.com/cchromak/Birthday-Event-Creator/blob/main/images/givePermission
-.png" width=400></p>
+<p><img src="https://github.com/cchromak/Birthday-Event-Creator/blob/main/images/givePermission.png" width=400></p>
 
 Then you will see a warning. Select **Advanced** in the bottom left corner.
 <p><img src="https://github.com/cchromak/Birthday-Event-Creator/blob/main/images/goToAdvanced.png" width=400></p>
 
 Then select **Go to birthdayEventCreator (unsafe)**
-<p><img src="https://github.com/cchromak/Birthday-Event-Creator/blob/main/images/gotToUnsafe
-.png" width=400></p>
+<p><img src="https://github.com/cchromak/Birthday-Event-Creator/blob/main/images/gotToUnsafe.png" width=400></p>
 
 Choose the gmail account you are working with then scroll down and select **Allow**.
 
