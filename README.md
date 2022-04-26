@@ -5,17 +5,19 @@ Simple script made for my family to create Goolge calendar events via Google She
 
 All you need is a Google account and 10 minutes.
 
-## Instructions
+## Instructions For Creating Events
 
 ### Setting up a Google sheet
 Create a google sheet and share it with everyone whose birthday you wish to create an event/reminder for. Ask them to input their own data.
 
 The sheets formatting is as following: 
-<p><img src="https://github.com/cchromak/Birthday-Event-Creator/blob/main/images/addSheet.png" width=900></p>
+<p><img src="https://github.com/cchromak/Birthday-Event-Creator/blob/main/images/addSheet.png" width=700></p>
 
 **Note the formatting of the date yyyy-mm-dd**
 
 ### Setting up a Google calendar
+
+*It is highly suggest to create a unique calendar for these events in case you want to simply erase the calendar to remove all of the events. This will be discussed in the instrutions for deleting events portion of this readme.*
 
 Go to Google Calendar
 
@@ -90,6 +92,22 @@ Then select **Go to birthdayEventCreator (unsafe)**
 Choose the gmail account you are working with then scroll down and select **Allow**.
 
 You may have to rerun the program at this point, so simply run it.
+
+
+## Instructions For Deleting Events
+
+You may find that you need to delete all of these events and recreate them all with additional people. For instance, a new baby is born in your family. You have two options.
+
+The easiest is to delete the Google Calendar, receate a new one, and then follow these steps with your updated Google Sheet.
+
+The second options is to use the second function **deleteEvents** within the code [BirthdayEventCreator.js](https://github.com/cchromak/Birthday-Event-Creator/blob/main/BirthdayEventCreator.js)
+
+Open Apps script and select the deleteEvents function in the drop down.
+<p><img src="https://github.com/cchromak/Birthday-Event-Creator/blob/main/images/selectEventCreator.png" width=400></p>
+
+After that follow the steps to recreate all of the events with the newly updated Google sheet.
+
+Now you *hopefully* wont miss another birthday.
 
 
 
