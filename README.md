@@ -17,7 +17,7 @@ The sheets formatting is as following:
 
 ### Setting up a Google calendar
 
-*It is highly suggest to create a unique calendar for these events in case you want to simply erase the calendar to remove all of the events. This will be discussed in the instrutions for deleting events portion of this readme.*
+*It is highly suggested to create a unique calendar for these events in case you want to simply erase the calendar to remove all of the events. This will be discussed in the instrutions for deleting events portion of this readme.*
 
 Go to Google Calendar
 
@@ -40,7 +40,7 @@ Open up Apps scripts
 This is what you will see:
 <p><img src="https://github.com/cchromak/Birthday-Event-Creator/blob/main/images/appSheet.png" width=700></p>
 
-Copy and paste the code from [BirthdayEventCreator.js](https://github.com/cchromak/Birthday-Event-Creator/blob/main/BirthdayEventCreator.js) in the text editor overwritting the empty start function.
+Copy and paste the code from [BirthdayEventCreator.js](https://github.com/cchromak/Birthday-Event-Creator/blob/main/BirthdayEventCreator.js) in the text editor overwritting the empty starter function.
 
 There are two important must do's at this point.
 Copy and paste your previously saved calender Id into two places in the code. They are on line 6 and 62. This id will take the place of the holder **YOUR_CALENDAR_ID_GOES_HERE_LEAVE_QUOTES**. As it says, leave the quotes.
@@ -67,7 +67,7 @@ You can choose from 1-11 inclusive.
 Go to Add Services
 <p><img src="https://github.com/cchromak/Birthday-Event-Creator/blob/main/images/addService.png" width=400></p>
 
-Add both the Google Sheets Api and Google Calendar Api
+Add both the Google Sheets API and Google Calendar API
 <p><img src="https://github.com/cchromak/Birthday-Event-Creator/blob/main/images/addSheets.png" width=400></p>
 <p><img src="https://github.com/cchromak/Birthday-Event-Creator/blob/main/images/addCalendar.png" width=400></p>
 
@@ -91,12 +91,13 @@ Then select **Go to birthdayEventCreator (unsafe)**
 
 Choose the gmail account you are working with then scroll down and select **Allow**.
 
-You may have to rerun the program at this point, so simply run it.
+You may have to rerun the program at this point, so simply run it. at this point you have the events saved for the next 200 years (I'm optimistic).
 
+Now you *hopefully* wont miss another birthday.
 
 ## Instructions For Deleting Events
 
-You may find that you need to delete all of these events and recreate them all with additional people. For instance, a new baby is born in your family. You have two options.
+You may find that you need to delete all of these events and recreate them all with additional people. For instance, a new baby is born in your family. You have two options:
 
 The easiest is to delete the Google Calendar, receate a new one, and then follow these steps with your updated Google Sheet.
 
@@ -105,9 +106,7 @@ The second options is to use the second function **deleteEvents** within the cod
 Open Apps script and select the deleteEvents function in the drop down.
 <p><img src="https://github.com/cchromak/Birthday-Event-Creator/blob/main/images/selectEventCreator.png" width=400></p>
 
-After that follow the steps to recreate all of the events with the newly updated Google sheet.
-
-Now you *hopefully* wont miss another birthday.
+After that, follow the steps to recreate all of the events with the newly updated Google sheet.
 
 
 
