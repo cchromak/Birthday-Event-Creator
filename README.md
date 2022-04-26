@@ -18,8 +18,4 @@ All you need is a Google account and 10 minutes.
 Create a google sheet and share it with everyone whose birthday you wish to create an event/reminder for. Ask them to input their own data.
 
 The sheets formatting is as following: 
-<img src="https://github.com/cchromak/Birthday-Event-Creator/tree/main/images/addSheet.png" width=600>
-
-
-
-![Google sheet](https://github.com/cchromak/Birthday-Event-Creator/tree/main/images/addSheet.png)
+<p><img src="https://github.com/cchromak/Birthday-Event-Creator/blob/main/images/addSheet.png" width=500></p>
