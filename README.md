@@ -38,9 +38,64 @@ Open up Apps scripts
 This is what you will see:
 <p><img src="https://github.com/cchromak/Birthday-Event-Creator/blob/main/images/appSheet.png" width=700></p>
 
-Copy and paste the code from [BirthdayEventCreator.js](https://github.com/cchromak/Birthday-Event-Creator/blob/main/BirthdayEventCreator.js)
+Copy and paste the code from [BirthdayEventCreator.js](https://github.com/cchromak/Birthday-Event-Creator/blob/main/BirthdayEventCreator.js) in the text editor overwritting the empty start function.
 
 There are two important must do's at this point.
 Copy and paste your previously saved calender Id into two places in the code. They are on line 6 and 62. This id will take the place of the holder **YOUR_CALENDAR_ID_GOES_HERE_LEAVE_QUOTES**. As it says, leave the quotes.
 
 Next, you must ensure on line 10 that your inputted range of the google sheet is correct. For instance, the range in this code is from A2 to F4. Refer to [brirthdaySheetTemplate](https://github.com/cchromak/Birthday-Event-Creator/blob/main/images/addSheet.png). Your range must match the data in your google sheet.
+
+Besides the *must do's* there are a few ways to augment the code to personalize it.
+For instance, this code has set two email reminders for the event - day of and week before. This is the part of the code that does that:
+```
+reminders: {
+          "useDefault": false,
+          "overrides": [
+            { "method": "email", "minutes": 10080 },
+            { "method": "email", "minutes": 0 }
+          ]
+        }
+```
+You could adjust the "minutes" to the desired time.
+
+You could also adjust the **colorId**. Right now it is set to 7 which is a blue.
+You can choose from 1-11 inclusive.
+
+
+Go to Add Services
+<p><img src="https://github.com/cchromak/Birthday-Event-Creator/blob/main/images/addService.png" width=400></p>
+
+Add both the Google Sheets Api and Google Calendar Api
+<p><img src="https://github.com/cchromak/Birthday-Event-Creator/blob/main/images/addSheets.png" width=400></p>
+<p><img src="https://github.com/cchromak/Birthday-Event-Creator/blob/main/images/addCalendar.png" width=400></p>
+
+Save the project
+<p><img src="https://github.com/cchromak/Birthday-Event-Creator/blob/main/images/saveProjecxt
+.png" width=400></p>
+
+You will by default have **eventCreator** selected as the function you wish to run, but just in case ensure it is selected.
+<p><img src="https://github.com/cchromak/Birthday-Event-Creator/blob/main/images/selectEventCreator
+.png" width=400></p>
+
+Run it
+<p><img src="https://github.com/cchromak/Birthday-Event-Creator/blob/main/images/selectRun
+.png" width=400></p>
+
+You will be asked to give the project permission to use your data.
+<p><img src="https://github.com/cchromak/Birthday-Event-Creator/blob/main/images/givePermission
+.png" width=400></p>
+
+Then you will see a warning. Select **Advanced** in the bottom left corner.
+<p><img src="https://github.com/cchromak/Birthday-Event-Creator/blob/main/images/goToAdvanced.png" width=400></p>
+
+Then select **Go to birthdayEventCreator (unsafe)**
+<p><img src="https://github.com/cchromak/Birthday-Event-Creator/blob/main/images/gotToUnsafe
+.png" width=400></p>
+
+Choose the gmail account you are working with then scroll down and select **Allow**.
+
+You may have to rerun the program at this point, so simply run it.
+
+
+
+
