@@ -19,3 +19,21 @@ Create a google sheet and share it with everyone whose birthday you wish to crea
 
 The sheets formatting is as following: 
 <p><img src="https://github.com/cchromak/Birthday-Event-Creator/blob/main/images/addSheet.png" width=900></p>
+**Note the formatting of the date yyyy-mm-dd**
+
+#### Setting up a Google calendar
+
+Create a Calendar
+<p><img src="https://github.com/cchromak/Birthday-Event-Creator/blob/main/images/createCalendar.png" width=400></p>
+
+Select Calendar Options
+<p><img src="https://github.com/cchromak/Birthday-Event-Creator/blob/main/images/selectCalendarOptions.png" width=400></p>
+
+Scroll down until you find calendar Id. Copy and paste it for temporary holding.
+<p><img src="https://github.com/cchromak/Birthday-Event-Creator/blob/main/images/selectCalendarOptions.png" width=400></p>
+
+#### Apps script
+
+Go back to the already open Google sheet.
+
+
